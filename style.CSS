@@ -4,20 +4,24 @@ body {
     color: green;
     font-family: monospace;
     font-size: 32px;
+    text-align: center;
     
 } p { 
     font-size: 15px;
     text-align: center;
 
 
+}.listas {
+    font-size: 15px;
+    
 } img { 
     border-radius: 15%;
 
- } .listas {
-    font-size: 15px;
-    
-} git pull
-
-#sobre-mim {
+} #sobre-mim {
+    text-align: center;
+} .inter {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(66, 40, 1, 0.39);
     text-align: center;
 }
