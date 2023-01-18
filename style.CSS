@@ -21,7 +21,7 @@ p {
     color: rgb(112, 63, 2);
     
 } 
-#linkedin {
+.social-buttons {
     width: 24px;
 }
 
@@ -29,10 +29,7 @@ img {
     border-radius: 15%;
     width: 100px;
 } 
-
-#sobre-mim {
-    
-} 
+ 
 .inter {
     font-size: 22px;
     text-decoration: none;
