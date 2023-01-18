@@ -2,7 +2,7 @@ body {
     background-color: rgb(248, 235, 185);
 }
 h1 {
-    color: rgb(201, 177, 44);
+    color: rgb(247, 186, 130);
     font-family: monospace;
     font-size: 32px;
     
@@ -11,10 +11,10 @@ p {
     font-size: 15px;
     color: rgb(112, 63, 2);
     background-color: rgb(236, 204, 164);
-    width: 60%;
-    
-
-
+    width: 50%;
+    height: 100px;
+    overflow: auto;
+    /* teste de auto rolagem e tamanho vertical e horizontal*/
 }
 .listas {
     font-size: 15px;
