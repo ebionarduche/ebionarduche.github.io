@@ -43,7 +43,11 @@ main {
     font-size: larger;
 }
 
-img { 
+#logo-img { 
+    width: 80px;
+} 
+
+#profile-img { 
     border-radius: 500px;
     width: 220px;
 } 
@@ -60,7 +64,7 @@ img {
 .box-content {
     display: flex;
     justify-content: center;
-    margin: 50px 0px 50px 0px; 
+    margin: 40px 0px 50px 0px; 
     
 }
 
