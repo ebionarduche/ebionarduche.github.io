@@ -1,0 +1,2 @@
+const = 'cara'
+if(cara === ) 
