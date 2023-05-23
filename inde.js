@@ -1,2 +1,0 @@
-const = 'cara'
-if(cara === ) 
