@@ -85,3 +85,9 @@ footer {
 
 }
 
+#test-sgv path {
+    background-color: brown;
+    color: rgb(36, 79, 79);
+    fill: rgb(255, 255, 255);
+    
+}
