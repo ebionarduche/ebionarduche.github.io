@@ -1,3 +1,18 @@
 .Header {
+  display: flex;
+  flex-direction: column;
   background-color: bisque;
+}
+
+.Header h1 {
+  font-size: 15rem;
+  width: auto;
+  height: auto;
+  margin-block: 0px
+
+}
+
+.header-social-icons {
+  display: flex;
+  align-self: center;
 }
