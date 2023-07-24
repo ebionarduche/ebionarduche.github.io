@@ -1,22 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Header.css';
-import Curriculum from './icons/Curriculum';
 import GitHubSVG from './icons/GitHub';
 import LinkedinSVG from './icons/Linkedin';
+// import fotoPerfil from '../fotoPerfil.png';
+import Curriculum from './icons/Curriculum';
 
-class Header extends Component {
-    render() {
-        return(
-            <div className='Header'>
+
+
+const Header = () => {
+  
+    return (
+        <header>
+            <div className='first-title'>
+                <h1>Full Stack</h1>
                 <div className='header-social-icons'>
-                    <LinkedinSVG />
                     <GitHubSVG />
+                    <LinkedinSVG />
                     <Curriculum />
                 </div>
-                <h1>REACT DEVELOPER</h1>
             </div>
-        );
-    }
-}
+        </header>
+    );
+};
 
 export default Header;

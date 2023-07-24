@@ -1,11 +1,12 @@
 .Header {
   display: flex;
-  flex-direction: column;
-  background-color: bisque;
+}
+/* .first-title {
+  display: flex;
 }
 
 .Header h1 {
-  font-size: 15rem;
+  font-size: 5rem;
   width: auto;
   height: auto;
   margin-block: 0px
@@ -15,4 +16,23 @@
 .header-social-icons {
   display: flex;
   align-self: center;
+  margin: 1%;
+  width: 120px;
 }
+
+.Main {
+  background-image: url('../imagens/wallpaper/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.perfil-img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.logo path {
+  fill: red; /* ou qualquer outra cor em formato CSS */
+  /* stroke: blue; */
+/* } */ 
