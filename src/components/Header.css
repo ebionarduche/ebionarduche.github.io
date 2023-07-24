@@ -1,6 +1,29 @@
-.Header {
+Header {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../imagens/wallpaper/wallpaper.jpg');
   display: flex;
 }
+
+Header > h1 {
+  margin-bottom: 0px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-title {
+  display: flex;
+}
+
+.perfil-img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+
 /* .first-title {
   display: flex;
 }
@@ -21,16 +44,10 @@
 }
 
 .Main {
-  background-image: url('../imagens/wallpaper/wallpaper.jpg');
-  background-size: cover;
-  background-position: center;
+
   display: flex;
 }
 
-.perfil-img {
-  width: 100px;
-  border-radius: 10px;
-}
 
 .logo path {
   fill: red; /* ou qualquer outra cor em formato CSS */
