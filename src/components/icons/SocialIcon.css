@@ -1,9 +1,14 @@
-.social-icon {
-  transition: transform 0.3s, fill 0.3s; /* Definindo a transição de animação */
-  
+
+.social-icon-container {
+  display: inline-block; /* ou flex, dependendo da necessidade de layout */
+  cursor: pointer; /* Altera o cursor para o estilo de ponteiro ao passar o mouse */
 }
 
-.social-icon:hover {
-  transform: translateY(-3px); /* Movendo o ícone para cima */
-  fill: blue; /* Alterando a cor do ícone */
+.social-icon {
+  transition: transform 0.3s, fill 0.3s; 
+
+}
+.social-icon-container:hover .social-icon {
+  transform: translateY(-3px);
+  fill:rgb(158, 3, 197); 
 }
