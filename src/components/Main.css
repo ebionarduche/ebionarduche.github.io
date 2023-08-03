@@ -1,11 +1,11 @@
-Header {
+main {
   background-size: cover;
   background-position: center;
-  background-image: url('../imagens/wallpaper/wallpaper.jpg');
+  background-image: url('../imagens/wallpaper/bg-ng-01.jpg');
   display: flex;
 }
 
-Header > h1 {
+main > h1 {
   margin-bottom: 0px;
 }
 
@@ -14,13 +14,21 @@ Header > h1 {
   flex-direction: column;
 }
 
+.title > h1 {
+  color: white;
+}
+
 .first-title {
   display: flex;
 }
 
+.first-title > h1 {
+  color: white;
+}
+
 .perfil-img {
-  width: 100px;
-  border-radius: 10px;
+  width: 10%;
+  border-radius: 80%;
 }
 
 

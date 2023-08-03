@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Main.css';
 import GitHubSVG from './icons/GitHub';
 import LinkedinSVG from './icons/Linkedin';
 import fotoPerfil from '../fotoPerfil.png';
@@ -7,9 +7,9 @@ import Curriculum from './icons/Curriculum';
 
 
 
-const Header = () => {
+const Main = () => {
     return (
-        <header>
+        <main>
             <section className='title'>
                 <div className='first-title'>
                     <h1>Full Stack</h1>
@@ -22,8 +22,8 @@ const Header = () => {
                 <h1>developer</h1>
             </section>
             <img className='perfil-img' src={fotoPerfil} alt="" />
-        </header>
+        </main>
     );
 };
 
-export default Header;
+export default Main;
