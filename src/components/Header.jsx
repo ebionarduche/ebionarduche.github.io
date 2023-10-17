@@ -15,7 +15,7 @@ function Header() {
                 <a href="#home">INÍCIO</a>
                 <a href="#about" >SOBRE</a>
                 <a href="#projects">PROJETOS</a> 
-                <a href='contact'>CONTATO</a>
+                <a href='#contact'>CONTATO</a>
                 <img src={lightMode} alt="" width='50px' />
             </nav>
         </head>
