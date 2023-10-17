@@ -10,30 +10,12 @@ head > h1 {
   margin-bottom: 0px;
 }
 
-.header-top {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.273);
-  padding: 1%;
-}
-
-.header-top > h2 {
-  color: rgb(158, 3, 197);
-}
-
 nav {
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 60%;
-}
-
-nav > a{
-  text-decoration: none;
-  /* border: 1px solid red; */
-  color: white;
-
 }
 
 .introduction {
@@ -56,31 +38,23 @@ nav > a{
 
 .title > h1 {
   color: rgb(158, 3, 197);
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .content > div > p {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .about-me {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .header-social-icons {
   display: flex;
-  align-items: center;
 }
 
 .header-social-icons > div:nth-child(n + 2) {
   margin-left: 2%;
-}
-
-.perfil-img {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 19%;
-  border-radius: 80%;
 }
 
