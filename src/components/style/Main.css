@@ -1,0 +1,120 @@
+.main-container {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images-wallpaper/bg-ng-02.jpg');
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+    height: calc(100vh - 5vh); /* Ajusta a altura para ocupar 100% da viewport a partir da margem superior */
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 2%;
+  margin-top: 8%;
+  
+}
+
+.title  div > span {
+  color: white;
+  font-size: 1.9rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5%;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-container > div:nth-child(n + 2) {
+  margin-left: 1.2%;
+}
+
+
+.title > h1 {
+  color: rgb(158, 3, 197);
+  font-size: 3.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-container  {
+  margin-bottom: 2%;
+  width: 50%;
+}
+
+.intro-container  > span {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.content > button {
+  background:  transparent;
+  color:  #ffffff;
+  border: 2.5px solid #ad0697;
+  padding: 15px 30px; /* Aumentei o padding */
+  font-size: 18px; /* Aumentei o tamanho da fonte */
+  font-weight: bold;
+  margin: 10px;
+  width: 10%;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid #be06be;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+
+.mouse::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 5px; /* Adicionei um pequeno espaço no topo */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ad0697;
+  border-radius: 50%;
+  opacity: 0; /* Iniciar a bolinha invisível */
+  animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  0% {
+    top: 5px; /* Mantém a bolinha no topo com espaço */
+    opacity: 0;
+  }
+  10% {
+    top: 5px; /* Mantém a bolinha no topo com espaço */
+    opacity: 1;
+  }
+  50% {
+    top: 30px; /* Faz a bolinha descer */
+    opacity: 1;
+  }
+  90% {
+    top: 30px; /* Mantém a bolinha no fundo */
+    opacity: 0;
+  }
+  100% {
+    top: 5px; /* Faz a bolinha voltar ao topo com espaço */
+    opacity: 0;
+  }
+}

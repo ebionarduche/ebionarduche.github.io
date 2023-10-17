@@ -1,0 +1,35 @@
+.Card {
+  width: 30%;
+  /* background-color: rgba(255, 255, 255, 0.221); */
+  margin: 1px solid black;
+}
+
+.Card > h2 {
+  margin-bottom: 0px;
+}
+
+.Card > h3 {
+  font-size: 1rem;
+}
+
+.skills-div {
+  margin: 1.5%;
+  background-color: rgba(241, 239, 239, 0.883);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra padrão */
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando necessário */
+  margin-bottom: 2.5%;
+}
+
+.skills-span {
+  padding: 50px 10px; /* Adicione mais espaçamento interno horizontal */
+  font-size: 14px; /* Reduza o tamanho da fonte das habilidades */
+  width: 15px; /* Defina uma largura mínima para cada habilidade */
+
+}
