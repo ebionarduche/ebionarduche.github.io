@@ -1,0 +1,22 @@
+.project-container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 5%;  
+}
+
+.individual-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img {
+  width: 23%;
+  margin: 5%;
+  transition: transform 0.3s, margin 0.3s;
+}
+
+.project-img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}

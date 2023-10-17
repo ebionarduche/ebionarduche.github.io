@@ -1,0 +1,39 @@
+.header-container {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.052); /* Adicione uma sombra na base */
+  top: 0;
+
+}
+
+.perfil-container {
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  width: 20%;
+}
+
+.perfil-container > h1 {
+  color: rgb(158, 3, 197);
+  margin-left: 5%;
+  font-size: 1.6rem;
+}
+
+.navigation-container {
+  display: flex;
+  padding: 1%;
+  align-items: center;
+}
+
+.navigation-container > a {
+  margin: 5%;
+  font-size: 1.3rem;
+}
+
+.navigation-container > a:hover {
+  color: #888; /* Define a cor de fundo para o tom de cinza mais escuro ao passar o mouse */
+  cursor: pointer;
+}

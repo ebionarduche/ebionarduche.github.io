@@ -1,0 +1,66 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.694);
+  max-width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5%; /* Adicione preenchimento ao formulário */
+  display: flex; /* Adicione display flex para ajustar a altura */
+  flex-direction: column; /* Ajuste a direção para column */
+  align-items: center; /* Centralize os elementos verticalmente */
+  border-radius: 20px;
+}
+
+form > h1 {
+  margin-bottom: 5%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 2%;
+  font-size: 16px;
+}
+
+textarea {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 2%;
+  font-size: 16px;
+  height: 200px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  width: 150px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
