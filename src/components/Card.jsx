@@ -1,6 +1,8 @@
 import React from 'react';
 import './style/Card.css';
 import ButtonsLink from './ButtonsLink';
+import PropTypes from 'prop-types';
+
 
 
 function Card({ projectName, subTitle, description, skills, Rlink, Plink = [] }) {
@@ -25,5 +27,14 @@ function Card({ projectName, subTitle, description, skills, Rlink, Plink = [] })
         </div>
     );
 }
+
+Card.propTypes = {
+    projectName: PropTypes.string,
+    subTitle: PropTypes.string,
+    description: PropTypes.string,
+    skills: PropTypes.array,
+    Rlink: PropTypes.string,
+    Plink: PropTypes.string,
+}.isRequired;
 
 export default Card;

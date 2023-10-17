@@ -1,5 +1,7 @@
 import React from 'react';
 import './style/ButtonsLink.css';
+import PropTypes from 'prop-types';
+
 
 function ButtonsLink({Rlink, Plink}) {
 
@@ -29,5 +31,10 @@ function ButtonsLink({Rlink, Plink}) {
         </div>
     );
 }
+
+ButtonsLink.propTypes = {
+    Rlink: PropTypes.string,
+    Plink: PropTypes.string,
+}.isRequired;
 
 export default ButtonsLink;

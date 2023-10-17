@@ -30,14 +30,14 @@ function Projects() {
 
     return (
         <div className="project-container">
-      
+            <h1>PROJETOS</h1>
             <div className="individual-project init-hidden">
                 <img src={imagem} alt="imagem" className="project-img"/>
                 <Card 
                     projectName='Recipes App' 
                     subTitle='Front-end'
                     description='Receitas App é um aplicativo mobile que permite acessar uma ampla variedade de receitas,
-          incluindo refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
+                    incluindo refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
                     skills={['JavaScript', 'React', 'CSS', 'BrowserRouter', 'ContextAPI','RTL', 'Redux', 'Bootstrap' ]}  
                     Rlink={githubLink}
                     Plink={liveRecipesApp}     
@@ -50,8 +50,8 @@ function Projects() {
                     projectName='Table Futebol Club' 
                     subTitle='Back-end'
                     description='O TFC é um site informativo sobre partidas e classificações de futebol.
-          Este projeto inclui uma API desenvolvida em Node.js que permite criar, editar,
-          excluir e selecionar partidas.'
+                    Este projeto inclui uma API desenvolvida em Node.js que permite criar, editar,
+                    excluir e selecionar partidas.'
                     skills={['TypeScript', 'NodeJs', 'POO', 'Sequelize', 'MySql','RTL', 'Sinon', 'Mocka', 'Docker', 'JWT' ]}
                     Rlink={githubLink}     
                 />
@@ -62,7 +62,7 @@ function Projects() {
                 <Card 
                     projectName='Recipes App' 
                     description='Receitas App é um aplicativo mobile que permite acessar uma ampla variedade de receitas,
-            incluindo refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
+                    refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
                     skills={['JavaScript', 'React', 'CSS', 'BrowserRouter', 'ContextAPI','RTL', 'Redux', 'Bootstrap' ]}
                     Rlink={githubLink}     
                 />

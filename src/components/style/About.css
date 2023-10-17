@@ -1,6 +1,7 @@
 .about {
-  margin-top: 5.5%;
-  padding: 2%;
+  margin-top: 3.5%;
+  padding: 1%;
+
 }
 .about > h1 {
   margin-bottom: 0.5%;
@@ -59,14 +60,10 @@
 }
 
 .technologies > div {
- margin: 1.5%;
- transition: transform 0.3s, margin 0.3s;
+  margin: 1.5%;
+  transition: transform 0.3s, margin 0.3s;
 }
 
 .technologies > div:hover {
   transform: scale(1.2);
 }
-
- 
-
-

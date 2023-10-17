@@ -7,6 +7,7 @@ function Contact() {
             <form action="https://formsubmit.co/ebionarduche77@gmail.com" method="POST">
                 <h1>CONTATO</h1>
                 <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl" />
                 <label htmlFor="nome">
         Nome:
                     <input type="text" name="name" placeholder="Escreva seu nome aqui"required />
