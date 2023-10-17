@@ -29,7 +29,7 @@ function Projects() {
     const liveRecipesApp = 'https://app-de-receitas-psi.vercel.app/';
 
     return (
-        <div className="project-container">
+        <div id='projects' className="project-container">
             <h1>PROJETOS</h1>
             <div className="individual-project init-hidden">
                 <img src={imagem} alt="imagem" className="project-img"/>

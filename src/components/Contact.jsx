@@ -3,7 +3,7 @@ import './style/Contact.css';
 function Contact() {
 
     return (
-        <div className="contact-container">
+        <div id='contact' className="contact-container">
             <form action="https://formsubmit.co/ebionarduche77@gmail.com" method="POST">
                 <h1>CONTATO</h1>
                 <input type="hidden" name="_captcha" value="false" />

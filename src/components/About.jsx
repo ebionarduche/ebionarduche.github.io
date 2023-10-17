@@ -4,7 +4,7 @@ import technologies from './technologies';
 
 function About() {
     return(
-        <div className="about">
+        <div id="about" className="about">
             <h1>SOBRE MIM</h1>
             <p>
                 Aqui você encontrará mais informações sobre mim,<br />

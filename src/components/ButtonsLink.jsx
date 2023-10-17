@@ -25,7 +25,7 @@ function ButtonsLink({Rlink, Plink}) {
                         type="button"
                         onClick={() => handleButtonClick(Plink)}
                     >
-          Projeto 
+        Projeto 
                     </button>)
             }
         </div>

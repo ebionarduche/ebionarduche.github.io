@@ -8,7 +8,7 @@ import Curriculum from './icons/Curriculum';
 
 function Main() {
     return (
-        <div className='main-container'>
+        <div id='home' className='main-container'>
             <section className='content'>
                 <div className='title'>
                     <div className='social-icons-container'>
