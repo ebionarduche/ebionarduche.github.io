@@ -1,8 +1,11 @@
+
 .about {
   padding: 1%;
-  height: calc(100vh - 5vh); /* Ajusta a altura para ocupar 100% da viewport a partir da margem superior */
-  background-color: rgba(207, 207, 207, 0.781);
+  height: calc(100vh - 5vh);
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
 }
+
 .about > h1 {
   margin-top: 6%;
   margin-bottom: 0.5%;
@@ -12,7 +15,6 @@
   font-size: 1.2rem;
   margin-bottom: 5%;
 }
-
 
 .about-container {
   display: flex;
@@ -36,14 +38,13 @@
   justify-content: center;
   width: 50%;
   margin: 1% 5% 5% 5%;
-
 }
 
 .about-me > p {
   text-align: left;
   font-size: 1.1rem;
-  line-height: 1.8; /* Aumenta o espaçamento entre as linhas */
-  margin-bottom: 10px; /* Adiciona margem na parte inferior de cada parágrafo */
+  line-height: 1.8;
+  margin-bottom: 10px;
 }
 
 .about-skills-container {
@@ -57,12 +58,15 @@
   flex-wrap: wrap;
   width: 50%;
   margin: 1% 5% 5% 5%;
-
 }
 
 .technologies > div {
   margin: 1.5%;
   transition: transform 0.3s, margin 0.3s;
+  background-color: #444; /* Darker background for technology divs */
+  color: #fff; /* Light text color */
+  border: 1px solid #666; /* Slight border for separation */
+  padding: 10px;
 }
 
 .technologies > div:hover {

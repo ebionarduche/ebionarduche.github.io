@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(207, 207, 207, 0.781);
 }
 
 form {
@@ -51,7 +52,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: rgb(158, 3, 197);
   width: 150px;
   color: #fff;
   padding: 10px 20px;
