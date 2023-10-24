@@ -4,6 +4,7 @@ import './style/Projects.css';
 import './style/Transition.css';
 import projectRecipesApp from './images-projects/imagem-recipes-app.png';
 import projectPort from './images-projects/image-port.png';
+import projectTFC from './images-projects/image-tfc.png'; 
 
 function Projects() {
     useEffect(() => {
@@ -26,8 +27,10 @@ function Projects() {
         };
     }, []); 
 
-    const githubLink = 'https://github.com/ebionarduche/App-De-Receitas-Mobile';
+    const githubLinkRecipesApp = 'https://github.com/ebionarduche/App-De-Receitas-Mobile';
     const liveRecipesApp = 'https://app-de-receitas-psi.vercel.app/';
+    const githubLinkTFC = 'https://github.com/ebionarduche/TFC';
+
 
     return (
         <div id='projects' className="project-container">
@@ -41,12 +44,12 @@ function Projects() {
                     description='Receitas App é um aplicativo mobile que permite acessar uma ampla variedade de receitas,
                     incluindo refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
                     skills={['JavaScript', 'React', 'CSS', 'BrowserRouter', 'ContextAPI','RTL', 'Redux', 'Bootstrap' ]}  
-                    Rlink={githubLink}
+                    Rlink={githubLinkRecipesApp}
                     Plink={liveRecipesApp}     
                 />
             </div>
             <div className="individual-project init-hidden">
-                <img src={projectPort} alt="imagem" className="project-img desktop-img"/>
+                <img src={projectTFC} alt="imagem" className="project-img desktop-img"/>
                 <Card 
                     projectName='Table Futebol Club' 
                     subTitle='Back-end'
@@ -54,7 +57,7 @@ function Projects() {
                     Este projeto inclui uma API desenvolvida em Node.js que permite criar, editar,
                     excluir e selecionar partidas.'
                     skills={['TypeScript', 'NodeJs', 'POO', 'Sequelize', 'MySql', 'Sinon', 'Mocka', 'Docker', 'JWT' ]}
-                    Rlink={githubLink}     
+                    Rlink={githubLinkTFC}     
                 />
             </div>
 
@@ -66,7 +69,7 @@ function Projects() {
                     description='Receitas App é um aplicativo mobile que permite acessar uma ampla variedade de receitas,
                     refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
                     skills={['JavaScript', 'React', 'CSS', 'ContextAPI' ]}
-                    Rlink={githubLink}     
+                    Rlink={githubLinkRecipesApp}     
                 />
             </div>
         </div>

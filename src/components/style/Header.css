@@ -29,8 +29,10 @@
 }
 
 .navigation-container > a {
+  all: unset;
   margin: 5%;
   font-size: 1.3rem;
+
 }
 
 .navigation-container > a:hover {

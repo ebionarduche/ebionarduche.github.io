@@ -12,7 +12,7 @@ function Main() {
             <section className='content'>
                 <div className='title'>
                     <div className='social-icons-container'>
-                        <span>Olá, me chamo Ebio Narduche</span>
+                        <span>  {'\u{1F44B}'} Olá, me chamo Ebio Narduche</span>
                         <GitHubSVG />
                         <LinkedinSVG />
                         <Curriculum />
@@ -21,12 +21,16 @@ function Main() {
                 </div>
                 <div className='intro-container'>
                     <span>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quas facere optio possimus!
-                        Nihil obcaecati mollitia nam, fuga aliquid, esse modi voluptatum ullam nemo, voluptatem eos
-                        deleniti iste officia maxime?
+                    Bem-vindo ao meu portfólio! Aqui você conhecerá melhor minha jornada como desenvolvedor web full stack,
+                    minhas habilidades em diversas tecnologias e meus projetos.Explore e confira o que construí até agora.
                     </span>
                 </div>
-                <button type="button">PROJETOS</button>
+                <button 
+                    type="button"
+                    onClick={() => window.location.href='#projects'}>
+                    PROJETOS
+                </button>
+                
                 <div className='mouse'></div>
             </section>
         </div>
