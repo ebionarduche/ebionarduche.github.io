@@ -22,10 +22,15 @@ function Main() {
                 <div className='intro-container'>
                     <span>
                     Bem-vindo ao meu portfólio! Aqui você conhecerá melhor minha jornada como desenvolvedor web full stack,
-                    minhas habilidades em diversas tecnologias e meus projetos. Explore e confira o que construí até agora.
+                    minhas habilidades em diversas tecnologias e meus projetos.Explore e confira o que construí até agora.
                     </span>
                 </div>
-                <button type="button">PROJETOS</button>
+                <button 
+                    type="button"
+                    onClick={() => window.location.href='#projects'}>
+                    PROJETOS
+                </button>
+                
                 <div className='mouse'></div>
             </section>
         </div>
