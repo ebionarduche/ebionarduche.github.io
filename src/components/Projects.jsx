@@ -2,9 +2,7 @@ import React, { useEffect } from 'react';
 import Card from './Card';
 import './style/Projects.css';
 import './style/Transition.css';
-import projectRecipesApp from './images-projects/imagem-recipes-app.png';
-import projectPort from './images-projects/image-port.png';
-import projectTFC from './images-projects/image-tfc.png'; 
+import projects from './projects';
 
 function Projects() {
     useEffect(() => {
@@ -27,51 +25,26 @@ function Projects() {
         };
     }, []); 
 
-    const githubLinkRecipesApp = 'https://github.com/ebionarduche/App-De-Receitas-Mobile';
-    const liveRecipesApp = 'https://app-de-receitas-psi.vercel.app/';
-    const githubLinkTFC = 'https://github.com/ebionarduche/TFC';
-
-
     return (
         <div id='projects' className="project-container">
             <h1>PROJETOS</h1>
             <p>Aqui você encontrará alguns dos projetos pessoais <br /> que desenvolvi durante meus estudos em programação.</p>
-            <div className="individual-project init-hidden">
-                <img src={projectRecipesApp} alt="imagem" className="project-img mobile-img"/>
-                <Card 
-                    projectName='Recipes App' 
-                    subTitle='Front-end'
-                    description='Receitas App é um aplicativo mobile que permite acessar uma ampla variedade de receitas,
-                    incluindo refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
-                    skills={['JavaScript', 'React', 'CSS', 'BrowserRouter', 'ContextAPI','RTL', 'Redux', 'Bootstrap' ]}  
-                    Rlink={githubLinkRecipesApp}
-                    Plink={liveRecipesApp}     
-                />
-            </div>
-            <div className="individual-project init-hidden">
-                <img src={projectTFC} alt="imagem" className="project-img desktop-img"/>
-                <Card 
-                    projectName='Table Futebol Club' 
-                    subTitle='Back-end'
-                    description='O TFC é um site informativo sobre partidas e classificações de futebol.
-                    Este projeto inclui uma API desenvolvida em Node.js que permite criar, editar,
-                    excluir e selecionar partidas.'
-                    skills={['TypeScript', 'NodeJs', 'POO', 'Sequelize', 'MySql', 'Sinon', 'Mocka', 'Docker', 'JWT' ]}
-                    Rlink={githubLinkTFC}     
-                />
-            </div>
-
-            <div className="individual-project init-hidden">
-                <img src={projectPort} alt="imagem" className="project-img desktop-img"/>
-                <Card 
-                    projectName='Portfolio' 
-                    subTitle='Front-end'
-                    description='Receitas App é um aplicativo mobile que permite acessar uma ampla variedade de receitas,
-                    refeições e drinks. Com ele, você pode pesquisar por nome de alimentos e nome de receitas.'
-                    skills={['JavaScript', 'React', 'CSS', 'ContextAPI' ]}
-                    Rlink={githubLinkRecipesApp}     
-                />
-            </div>
+            
+            {
+                projects.map(({image, screen, projectName, subTitle, description, skills, Rlink, Plink }) => (
+                    <div className="individual-project init-hidden" key={projectName}>
+                        <img src={image} alt="imagem" className={`project-img ${screen}`} />
+                        <Card 
+                            projectName={projectName}
+                            subTitle={subTitle}
+                            description={description}
+                            skills={skills}
+                            Rlink={Rlink}
+                            Plink={Plink}
+                        />
+                    </div>
+                ))
+            }
         </div>
     );}
 

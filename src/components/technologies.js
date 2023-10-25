@@ -16,6 +16,8 @@ import git from './images-technologies/git.png';
 import api from  './images-technologies/api.png';
 import jest from './images-technologies/jest.png';
 import express from './images-technologies/express.png';
+import linux from './images-technologies/linux.png';
+import hooks from './images-technologies/hooks.png';
 
 
 const technologies = [
@@ -24,6 +26,7 @@ const technologies = [
     { technology: 'HTML', image: html},
     { technology: 'CSS', image: css},
     { technology: 'React', image: react},
+    { technology: 'Hooks', image: hooks},
     { technology: 'RTL', image: rtl},
     { technology: 'Jest', image: jest},
     { technology: 'Redux', image: redux},
@@ -38,6 +41,7 @@ const technologies = [
     { technology: 'Mocha', image: mocha},
     { technology: 'Chai', image: chai},
     { technology: 'Api Rest', image: api},
+    { technology: 'Linux', image: linux },
 ];
 
 export default technologies;

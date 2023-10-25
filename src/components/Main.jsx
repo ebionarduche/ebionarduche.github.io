@@ -21,7 +21,7 @@ function Main() {
                 </div>
                 <div className='intro-container'>
                     <span>
-                    Bem-vindo ao meu portfólio! Aqui você conhecerá melhor minha jornada como desenvolvedor web full stack,
+                    Bem-vindo ao meu portfólio! Aqui você conhecerá melhor minha jornada como desenvolvedor,
                     minhas habilidades em diversas tecnologias e meus projetos.Explore e confira o que construí até agora.
                     </span>
                 </div>
