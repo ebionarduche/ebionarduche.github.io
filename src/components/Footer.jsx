@@ -11,9 +11,11 @@ function Footer() {
                 <p>Desenvolvedor Full-Stack disponível para trabalhar e continuar aprendendo cada vez mais.</p>
             </div>
             <dir className='footer-social'>
-                <h2>SOCIAL</h2>
-                <GitHubSVG />
-                <LinkedinSVG />
+                <h2>CONTATO (COLOCAR WACHTS AQUI)</h2>
+                <div className='footer-icon'>
+                    <GitHubSVG />
+                    <LinkedinSVG />
+                </div>
             </dir>
         </div>
     );

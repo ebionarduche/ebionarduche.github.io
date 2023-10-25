@@ -1,9 +1,23 @@
 .footer-container{
   width: 100%;
-  background-color: black;
+  background-color: rgb(26, 23, 23);
   color: white;
   display: flex;
   justify-content: space-around;
   padding-top: 2.5%;
   padding-bottom: 2%;
+}
+
+.footer-signature {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer-signature > h2 {
+  margin-bottom: 2%;
+}
+
+.footer-social > h2 {
+  margin-bottom: 2.5%;
 }
